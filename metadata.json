@@ -1,0 +1,6 @@
+{
+  "name": "UBox - Lưu trữ trực tuyến",
+  "description": "Nền tảng lưu trữ tập tin hiện đại, tối ưu hóa cho ảnh, video và tài liệu với trải nghiệm người dùng mượt mà.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
