@@ -73,7 +73,7 @@ export default function DashboardStats({ stats, themeColor }: DashboardStatsProp
         <div>
           <h1 className="font-sans font-extrabold text-2xl md:text-3xl tracking-tight text-neutral-900 flex items-center gap-2">
             <span>Trung tâm Lưu trữ Số</span>
-            <span className="text-xs font-mono bg-neutral-900 text-white px-2 py-0.5 rounded-full uppercase tracking-wider">PREMIUM</span>
+            <span className="text-xs font-mono bg-neutral-900 text-white px-2 py-0.5 rounded-full uppercase tracking-wider">PRENIUM</span>
           </h1>
           <p className="font-sans text-xs md:text-sm text-neutral-500 mt-1">
             Hệ thống UBox tối ưu hóa bộ nhớ đệm, tự động nén dung lượng tải lên và duy trì tìm kiếm trên các tệp tin lưu trữ của bạn.

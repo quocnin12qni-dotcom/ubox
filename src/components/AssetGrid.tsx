@@ -356,14 +356,14 @@ export default function AssetGrid({
 
                   {/* Category Video */}
                   {file.type === 'video' && (
-                    <div className="w-full h-full relative">
-                      <img
-                        src={file.url}
-                        alt={file.name}
-                        referrerPolicy="no-referrer"
-                        loading="lazy"
-                        className="w-full h-full object-cover"
-                      />
+  <div className="w-full h-full relative overflow-hidden">
+    <video
+      src={file.url}
+      preload="metadata"
+      muted
+      playsInline
+      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+    />
                       <div className="absolute inset-0 bg-black/15 flex items-center justify-center transition-colors group-hover:bg-black/30">
                         <div className="w-7 h-7 rounded-full bg-white/90 text-black flex items-center justify-center shadow-md scale-95 group-hover:scale-100 transition-transform">
                           <Play size={11} className="fill-current ml-0.5" />

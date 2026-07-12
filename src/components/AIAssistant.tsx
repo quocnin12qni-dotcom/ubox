@@ -13,10 +13,10 @@ interface AIAssistantProps {
 }
 
 const PRESET_QUESTIONS = [
-  { text: 'Cách sử dụng website uBox?', label: 'Cách sử dụng' },
+  { text: 'Cách sử dụng website uBox', label: 'Cách sử dụng' },
   { text: 'Làm thế nào để upload file, ảnh, video?', label: 'Cách upload' },
-  { text: 'Đổi tên hoặc yêu thích nhiều tệp cùng lúc?', label: 'Đổi tên hàng loạt' },
-  { text: 'Xóa vĩnh viễn tệp trong thùng rác ra sao?', label: 'Xóa vĩnh viễn' }
+  { text: 'Cách đổi tên hoặc yêu thích nhiều tệp cùng lúc', label: 'Đổi tên hàng loạt' },
+  { text: 'Xóa vĩnh viễn tệp trong thùng rác thế nào', label: 'Xóa vĩnh viễn' }
 ];
 
 export default function AIAssistant({ themeMode, primaryColor, activeTab }: AIAssistantProps) {

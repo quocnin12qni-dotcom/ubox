@@ -106,7 +106,7 @@ export default function Sidebar({
           </div>
           <div>
             <span className="font-sans font-bold tracking-tight text-base text-white block">UBox Cloud</span>
-            <span className="font-mono text-[8px] text-white/50 block tracking-widest">VN v2.4 PREMIUM</span>
+            <span className="font-mono text-[8px] text-white/50 block tracking-widest">VN v2.4 PRENIUM</span>
           </div>
         </div>
       </div>
